@@ -21,7 +21,7 @@ public class StringClass {
         int start=f.indexOf("/");
         System.out.println(f.substring(start+1));
         int dayIndex= f.indexOf(" day");
-        System.out.println(f.substring((start + 1), dayIndex));
+        System.out.println(f.substring((start + 1), dayIndex)); // starting index is included but not ending one.
         String name = " mehmet Gul    ";
         System.out.println("name = " + name);
         System.out.println("name.trim() = " + name.trim());
